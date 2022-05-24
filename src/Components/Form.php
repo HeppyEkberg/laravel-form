@@ -1,6 +1,6 @@
 <?php
 
-namespace HeppyEkberg\Larcom\Components\Forms;
+namespace HeppyEkberg\Larcom\Components;
 
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;

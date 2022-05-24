@@ -1,16 +1,12 @@
-<div class="card {{ $class ?? '' }}" {!!  isset($style) ? ' style="'. $style .'"' : ''  !!}>
-    @if($header ?? false)
+<div {{ $attributes->merge(['class' => 'card']) }}>
+    @if($title ?? false)
         <div class="card-header">
-            {!! $header ?? '' !!}
+            {!! $title ?? '' !!}
         </div>
     @endif
 
     @if($body ?? true)
         <div class="card-body">
-            @if($title ?? false)
-                <h5 class="card-title">{{$title}}</h5>
-            @endif
-
             {!! $slot !!}
         </div>
     @else

@@ -2,8 +2,8 @@
 
 namespace HeppyEkberg\Larcom;
 
-use HeppyEkberg\Larcom\Components\Cards\Card;
-use HeppyEkberg\Larcom\Components\Forms\Form;
+use HeppyEkberg\Larcom\Components\Card;
+use HeppyEkberg\Larcom\Components\Form;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider as DefaultServiceProvider;
 
