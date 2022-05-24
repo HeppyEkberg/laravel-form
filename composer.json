@@ -1,0 +1,17 @@
+{
+  "name": "heppyekberg/laravelform",
+  "type": "component",
+  "license": "",
+  "description": "Form package for laravel components",
+  "authors": [
+    {
+      "name": "Heppy Ekberg",
+      "email": "heppy@ekberg.nu"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "HeppyEkberg\\LaravelForm\\": "src/"
+    }
+  }
+}
