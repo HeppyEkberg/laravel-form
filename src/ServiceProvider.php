@@ -9,7 +9,8 @@ class ServiceProvider extends DefaultServiceProvider
 {
     public function boot()
     {
-        $this->loadViewsFrom(__DIR__.'/Resources/views', 'Larcom');
+        $this->loadViewsFrom(__DIR__.'/Resources/views/larcom', 'Larcom');
+        $this->loadViewsFrom(__DIR__.'/Resources/views/alert', 'alert');
 
         Blade::componentNamespace('HeppyEkberg\\Larcom\\Components\\Forms', 'form');
     }
