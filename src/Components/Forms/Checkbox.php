@@ -1,10 +1,11 @@
 <?php
 
-namespace HeppyEkberg\LaravelForm\Components;
+namespace HeppyEkberg\Larcom\Components\Forms;
 
+use HeppyEkberg\Larcom\Input;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
-use HeppyEkberg\LaravelForm\Input;
+use function HeppyEkberg\Larcom\Components\view;
 
 class Checkbox extends Input
 {
@@ -25,7 +26,7 @@ class Checkbox extends Input
 
     public function render(): View
     {
-        return view('LaravelForm::checkbox');
+        return view('Larcom::forms.checkbox');
     }
 }
 

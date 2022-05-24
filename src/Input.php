@@ -1,6 +1,6 @@
 <?php
 
-namespace HeppyEkberg\LaravelForm;
+namespace HeppyEkberg\Larcom;
 
 use Illuminate\Contracts\View\View;
 use Illuminate\Support\Str;

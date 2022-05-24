@@ -1,8 +1,8 @@
 {
-  "name": "heppyekberg/laravelform",
+  "name": "heppyekberg/larcom",
   "type": "component",
   "license": "",
-  "description": "Form package for laravel components",
+  "description": "Package for laravel components",
   "authors": [
     {
       "name": "Heppy Ekberg",
@@ -15,7 +15,7 @@
   },
   "autoload": {
     "psr-4": {
-      "HeppyEkberg\\LaravelForm\\": "src/"
+      "HeppyEkberg\\Larcom\\": "src/"
     }
   }
 }

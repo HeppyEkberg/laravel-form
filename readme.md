@@ -4,10 +4,10 @@ Add elicit modal as a depencency with Composer
 
 ```
   "require": {
-    "heppyekberg/laravelform": "dev-main"
+    "heppyekberg/larcom": "dev-main"
   },
   "repositories": [
-    { "type": "vcs", "url": "https://github.com/HeppyEkberg/laravel-form.git" }
+    { "type": "vcs", "url": "https://github.com/HeppyEkberg/larcom.git" }
   ],
 ```
 

@@ -1,9 +1,10 @@
 <?php
 
-namespace HeppyEkberg\LaravelForm\Components;
+namespace HeppyEkberg\Larcom\Components\Forms;
 
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
+use function HeppyEkberg\Larcom\Components\view;
 
 class Form extends Component
 {
@@ -18,7 +19,7 @@ class Form extends Component
 
     public function render(): View
     {
-        return view('LaravelForm::form');
+        return view('Larcom::forms.form');
     }
 
 }
