@@ -2,6 +2,8 @@
 
 namespace HeppyEkberg\Larcom;
 
+use HeppyEkberg\Larcom\Components\Bootstrap\Column;
+use HeppyEkberg\Larcom\Components\Bootstrap\Row;
 use HeppyEkberg\Larcom\Components\Card;
 use HeppyEkberg\Larcom\Components\Form;
 use Illuminate\Support\Facades\Blade;
@@ -16,6 +18,8 @@ class ServiceProvider extends DefaultServiceProvider
 
         Blade::component('card', Card::class);
         Blade::component('form', Form::class);
+        Blade::component('row', Row::class);
+        Blade::component('column', Column::class);
 
         Blade::componentNamespace('HeppyEkberg\\Larcom\\Components\\Forms', 'form');
         Blade::componentNamespace('HeppyEkberg\\Larcom\\Components\\Cards', 'card');
